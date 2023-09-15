@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;   
+}
+
+header #h{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.banner{
+    background-image: url(img/amburge.jpeg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner button{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.banner h1{
+    font-size: 60px;
+}
+
+.banner p{
+    font-size: 25px;
+}
